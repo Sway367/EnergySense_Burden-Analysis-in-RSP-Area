@@ -19,7 +19,6 @@ In this study, I utilize data from Kaggle.com (https://www.kaggle.com/datasets/r
 Kaggle is the world's largest data science community with powerful tools and resources to help achieve data science goals.
 
 This is the description of my dataset:
-* The details about the columns are as follows:
 * status_id: A unique id for each tweet [numeric].
 * text: tweet text data [string].
 * created_at: The timestamp of the tweet [timestamp].
