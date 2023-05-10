@@ -238,3 +238,9 @@ xenophobic.info()
 
 xenophobic.to_csv('xenophobic tweets.csv')
 
+
+####
+#### Reference
+#### https://www.kaggle.com/code/christianlillelund/find-hate-towards-asians-in-tweets-svm
+####
+
