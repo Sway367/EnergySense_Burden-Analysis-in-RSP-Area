@@ -42,11 +42,11 @@ In the first script, my analysis is divided into the following steps:
 
 1. Explore the whole dataset and do a basic sentiment analysis by using TextBLOB. After this step, I obtained the number of positive, negative, and neutral tweets, and plotted a pie chart. 
 2. I collect all the tweets that have been identified as negative to form a new dataset and then preprocessed this dataset. Preprocessing steps include:
-* Removing Twitter handles
-* Remove punctuations, numbers, and special characters
-* Lowercase text
-* Remove all words below 3 characters
-* Tokenize the tweets
+    * Removing Twitter handles
+    * Remove punctuations, numbers, and special characters
+    * Lowercase text
+    * Remove all words below 3 characters
+    * Tokenize the tweets
 3. After getting a relatively clean database, I started to identify all tweets that might contain hate speech. The words I used to identify xenophobic speech include:
 ['alien', 'asian', 'kung flu', 'anti-asian', 'china', 'chinese', 'wuhan virus', 'criminal', 'floater', 'foreigner', 'greenhorn', 'aliens', 'foreigners', 'illegal', 'intruder', 'invader', 'migrant', 'invaders', 'immigrants', 'newcomer', 'odd one out, 'outsider', 'outsiders', 'refugee', 'newcomers', 'send her back, 'refugees', 'send him back, 'send them back, 'settler', 'stranger', 'illegal aliens, 'china virus', 'refugee', 'settlers', 'strangers', 'migrants', 'criminals']
 There are 52428 xenophobic tweets being found.
