@@ -16,7 +16,6 @@ Kaggle is the world's largest data science community with powerful tools and res
 The dataset is called "Xenophobia.csv". It contains 43,11477 tweet records of COVID-related statements that people posted between March 6th and May 2nd, 2020.
 
 This is the description of my dataset:
-* The details about the columns are as follows:
 * status_id: A unique id for each tweet [numeric].
 * text: tweet text data [string].
 * created_at: The timestamp of the tweet [timestamp].
