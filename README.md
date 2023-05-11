@@ -63,10 +63,10 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 
 **Figure 1. Sentiment Analysis**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/1.%20Sentiment%20Anlysis%20by%20using%20TextBlob.png)
-1.1% of the comments are defined as xenophobic tweets, which has 52,428 tweets. 
 
 **Figure 2. Percentage of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/2.%20Xenophobic%20Analysis.png)
+1.1% of the comments are defined as xenophobic tweets, which has 52,428 tweets. 
 
 **Figure 3. WordCloud of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/3.%20xenophobic_wordcloud.png)
@@ -74,7 +74,7 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 **Figure 4. The Distribution of the length of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/4.%20tweets%20length%20distribution.png)
 
-** Topic Modeling**
+**Topic Modeling**
 
 * Topic 1: criminal, china, lives, risk, thousands, save, refugees, chinese, covid
 * Topic 2: china, covid, world, chinese, virus, people, countries,  don’t, stop
