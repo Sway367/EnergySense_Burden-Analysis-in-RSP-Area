@@ -1,9 +1,5 @@
 # NLP Analysis of Xenophobic Twitter Comments During COVID Outbreak
 
-## Summary
-
-
-
 ## Introduction
 
 Even though COVID-19 has been recognized by many people as past tense, the pandemic has had a profound impact on societies worldwide, affecting every aspect of daily life. Unfortunately, the pandemic has also led to an increase in xenophobic attitudes towards certain groups, particularly Asian and Chinese. Data show that anti-Asian hate crimes increased by 339 percent nationwide from 2020 to 2021 in the United States. In fact, historically, every large-scale outbreak of a pandemic was accompanied by hatred towards a certain ethnic group and the associated violence. 
@@ -65,18 +61,37 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 
 ## Results
 
-Figure 1. Sentiment Analysis
+**Figure 1. Sentiment Analysis**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/1.%20Sentiment%20Anlysis%20by%20using%20TextBlob.png)
 1.1% of the comments are defined as xenophobic tweets, which has 52,428 tweets. 
 
-Figure 2. Percentage of Xenophobic Tweets
+**Figure 2. Percentage of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/2.%20Xenophobic%20Analysis.png)
 
-Figure 3. WordCloud of Xenophobic Tweets
+**Figure 3. WordCloud of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/3.%20xenophobic_wordcloud.png)
 
-Figure 4. The Distribution of the length of Xenophobic Tweets 
+**Figure 4. The Distribution of the length of Xenophobic Tweets**
 ![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/4.%20tweets%20length%20distribution.png)
+
+** Topic Modeling**
+
+* Topic 1: criminal, china, lives, risk, thousands, save, refugees, chinese, covid
+* Topic 2: china, covid, world, chinese, virus, people, countries,  don’t, stop
+* Topic 3: xenophobic, china, travel, called, trump, racist, illegal, criminal, president, flights
+* Topic 4: china, chinese, virus, covid, trump, people, wuhan, cases, calling, criminal
+* Topic 5: china, people, covid, chinese, trump, death, dont, migrant, xenophobia, virus
+
+## Limitations and Further Research
+
+* Different sentiment analysis models yield different results. This analysis didn’t explain why TextBlob is used for analysis but not other models.
+* In the sentiment analysis section, the results should be more interesting if we do not only judge the positive and negative of the attitude of comments but also conduct a more in-depth analysis, such as happy, angry, etc.
+* There may be some subjective bias in the definition of xenophobic speech. Further exploration is needed to capture more comprehensively all statements about hate.
+* The current analysis only focuses on the column ‘text’ ’in the dataset. If I can add time, location (where people's IPs belong), number of followers, and number of retweets in the analysis, the results should be more interesting.
+* The results of the current LDA model are far from accurate. We can find better results by hyperparameter testing.
+* From a more practical point of view, this is a relatively lagged analysis. This data only shows what people said about COVID during 3 months in 2020. It is not known what impact such rhetoric had on people's attitudes and behavior toward COVID in the following 2-3 years, and how people continue to see Asian hate today. This is a more practical and worthwhile topic to continue to explore.
+
+
 
 ## Reference
 
