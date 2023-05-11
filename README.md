@@ -65,7 +65,7 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 
 ## Results
 
-![plot](1. Sentiment Anlysis by using TextBlob.png)
+![plot](https://github.com/Sway367/NLP-Analysis-of-Xenophobic-Twitter-Comments-During-COVID-Outbreak/blob/main/1.%20Sentiment%20Anlysis%20by%20using%20TextBlob.png)
 
 ## Reference
 
