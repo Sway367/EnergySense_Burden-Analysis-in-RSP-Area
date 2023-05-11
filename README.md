@@ -65,7 +65,7 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 
 ## Results
 
-![alt text](1. Sentiment Anlysis by using TextBlob.png)
+![plot](1. Sentiment Anlysis by using TextBlob.png)
 
 ## Reference
 
