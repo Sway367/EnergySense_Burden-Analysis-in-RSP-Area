@@ -82,7 +82,7 @@ NOTE: Since my version of Anaconda is too old, some code does not run smoothly o
 * Topic 4: china, chinese, virus, covid, trump, people, wuhan, cases, calling, criminal
 * Topic 5: china, people, covid, chinese, trump, death, dont, migrant, xenophobia, virus
 
-## Limitations and Further Research
+## Limitations and Further Researches
 
 * Different sentiment analysis models yield different results. This analysis didn’t explain why TextBlob is used for analysis but not other models.
 * In the sentiment analysis section, the results should be more interesting if we do not only judge the positive and negative of the attitude of comments but also conduct a more in-depth analysis, such as happy, angry, etc.
